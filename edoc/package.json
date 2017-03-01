@@ -1,0 +1,18 @@
+{
+  "name": "edoc",
+  "version": "1.0.0",
+  "description": "Sistema para facturacion de farmacia a aseguradora",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tishca",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "mysql": "^2.13.0",
+    "nodemon": "^1.11.0",
+    "socket.io": "^1.7.2"
+  }
+}
